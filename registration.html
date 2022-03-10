@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="register.css">
+    </head>
+    <body>
+        <form action="portal.php" method="post">
+            <h1> Registration Here..</h1>
+            <input type="text" name="username" placeholder="Username">
+            <input type="password" name="password" placeholder="Password">
+            <input type="text" name="gender" list="gender" placeholder="Gender">
+            <datalist id="gender">
+            <option> Male</option>
+            <option> Female</option>
+            </datalist>
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="mobile" placeholder="Phone Number">
+            <button type="submit" name="submit" value="submit">Go back to Login</button>
+        </form>
+    </body>
+</html>
